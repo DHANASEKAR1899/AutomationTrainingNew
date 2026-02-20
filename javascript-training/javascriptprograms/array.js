@@ -9,6 +9,9 @@ console.log("1st try" , fruits); // output 1st try [ 'Apple', 'Orange', 'Banana'
 fruits.pop("Apple");
 console.log("2nd try" , fruits); // output  2nd try [ 'Apple', 'Orange', 'Banana' ]
 
+fruits.pop("Orange");
+console.log("2nd try" , fruits);
+
 // If you want to remove a specific element (like "Orange"), you should use filter() or splice():
 
 //------------------------------filter() Method ---------------------------------
