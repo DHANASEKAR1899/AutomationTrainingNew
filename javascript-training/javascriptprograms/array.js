@@ -24,7 +24,10 @@ fruits = fruits.filter(abc => abc !== "Orange");    // abc ===> arrow function d
 console.log(fruits);// output [ 'Orange', 'Banana', 'Grapes', 'Pineapple' ]
 
 fruits = fruits.filter(efg => efg !== "Grapes");    // efg ===> arrow function dummy value
-console.log(fruits);                                //[ 'Orange', 'Banana', 'Pineapple' ]
+console.log(fruits);   
+
+fruits = fruits.filter(efg => efg !== "Banana");    // efg ===> arrow function dummy value
+console.log(fruits);//[ 'Orange', 'Banana', 'Pineapple' ]
 
 //------------------------------splice() Method -----------------------------------
 console.log(fruits);
