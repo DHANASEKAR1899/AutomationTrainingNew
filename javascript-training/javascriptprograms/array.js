@@ -18,7 +18,10 @@ console.log("2nd try" , fruits); // output  2nd try [ 'Apple', 'Orange', 'Banana
 // Below mentioned code works for both Javascript and typescript
 
 fruits = fruits.filter(abc => abc !== "Apple");    // abc ===> arrow function dummy value
-console.log(fruits);                               // output [ 'Orange', 'Banana', 'Grapes', 'Pineapple' ]
+console.log(fruits);  
+
+fruits = fruits.filter(abc => abc !== "Orange");    // abc ===> arrow function dummy value
+console.log(fruits);// output [ 'Orange', 'Banana', 'Grapes', 'Pineapple' ]
 
 fruits = fruits.filter(efg => efg !== "Grapes");    // efg ===> arrow function dummy value
 console.log(fruits);                                //[ 'Orange', 'Banana', 'Pineapple' ]
